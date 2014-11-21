@@ -1,6 +1,11 @@
 /*global google Tabletop*/
-/*jslint browser:true*/
+/*eslint-env browser */
 
+/**
+ * Returns a string of information about a given sports team 
+ * @param {Object} data The sports team object
+ * @return {String} An information string about the sports team
+ */
 function buildContent( data ){
 
 	var twitterLogo = "	https://abs.twimg.com/a/1382598364/images/resources/twitter-bird-blue-on-white.png";
