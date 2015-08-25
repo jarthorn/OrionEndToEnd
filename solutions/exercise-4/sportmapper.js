@@ -9,7 +9,6 @@
 function buildContent( data ){
 
 	var twitterLogo = "	https://abs.twimg.com/a/1382598364/images/resources/twitter-bird-blue-on-white.png";
-	
 	var contentString = '<table class="table table-bordered">' +
 							'<tbody>' +
 								'<tr>' + 

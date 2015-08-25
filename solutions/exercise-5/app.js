@@ -1,4 +1,4 @@
-/*jshint node:true*/
+/*eslint-env node */
 
 var port = (process.env.VCAP_APP_PORT || 3000);
 var express = require('express');
